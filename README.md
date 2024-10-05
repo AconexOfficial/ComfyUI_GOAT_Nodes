@@ -1,5 +1,7 @@
 # 🐐 ComfyUI Custom Nodes 🐐
 
+(README still under construction!)
+
 Welcome to the **ComfyUI GOAT Nodes**! This README covers the details of the custom nodes that implemented. These custom nodes both cover things, which had to be done through the use of multiple nodes or simply things, that were not performant enough and had other problems. These nodes currently are categorized into Image manipulation, Math utilities, and Postprocessing effects.
 
 ## Table of Contents
