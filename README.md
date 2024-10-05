@@ -1,6 +1,6 @@
 # 🐐 ComfyUI GOAT Nodes 🐐
 
-(README still under construction!)
+(README still under construction! Not yet on ComfyUI Manager, but will be soon)
 
 Welcome to the **ComfyUI GOAT Nodes**! 
 These custom nodes both cover things, which had to be done through the use of multiple nodes or simply things, that were not performant enough and had other problems. These nodes currently are categorized into Image manipulation, Math utilities, and Postprocessing effects.
