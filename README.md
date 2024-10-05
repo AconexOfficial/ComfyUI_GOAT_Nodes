@@ -57,7 +57,7 @@ _Add a detailed description of how the Tiler node works here._
 _Add a detailed description of how the Untiler node works here._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+See the included workflow for 🐐 Image Tiler
 
 ---
 
@@ -66,7 +66,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of how this node retrieves the side length of an image._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Get Side Length Of Image node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/get_side_length_of_image.png)
 
 ---
 
@@ -75,7 +75,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of how this node performs advanced upscaling using a machine learning model._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Advanced Upscale image (using Model) node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/advanced_upscale_image_using_model.png)
 
 ---
 
@@ -86,7 +86,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of the Capped Int (Positive) node, which restricts integers to a positive range._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Capped Int node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/math/capped_int.png)
 
 ---
 
@@ -95,7 +95,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of the Capped Float (Positive) node, which restricts float values to a positive range._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Capped Int node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/math/capped_float.png)
 
 ---
 
@@ -104,7 +104,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of how the Int Divide (Rounded) node divides integers and rounds the result._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Int Divide (Rounded) node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/math/int_divide_rounded.png)
 
 ---
 
@@ -115,7 +115,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of how this node adds fast, realistic film grain to an image._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Fast Film Grain node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/postprocessing/fast_film_grain.png)
 
 ---
 
@@ -124,7 +124,7 @@ _Explain how to integrate and use this node in your workflow._
 _Add a detailed description of how this node quickly matches the color profile of one image to another._
 
 **Example workflow**:  
-_Explain how to integrate and use this node in your workflow._
+![Example workflow for the Fast Color Match node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/postprocessing/fast_color_match.png)
 
 ---
 
