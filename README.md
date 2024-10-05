@@ -1,4 +1,4 @@
-# 🐐 ComfyUI Custom Nodes 🐐
+# 🐐 ComfyUI GOAT Nodes 🐐
 
 (README still under construction!)
 
