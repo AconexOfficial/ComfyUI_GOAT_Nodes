@@ -138,4 +138,4 @@ To install these custom nodes, follow do one of the following things below:
 git clone https://github.com/your-repo/comfyui-custom-nodes.git
 ````
 
-<em>Method 2: Install through ComfyUI Manager</em>
+<em>Method 2: Install through ComfyUI Manager</em> (SOON)
