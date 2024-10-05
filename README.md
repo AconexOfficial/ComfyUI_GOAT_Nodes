@@ -6,7 +6,6 @@ Welcome to the **ComfyUI GOAT Nodes**!
 These custom nodes both cover things, which had to be done through the use of multiple nodes or simply things, that were not performant enough and had other problems. These nodes currently are categorized into Image manipulation, Math utilities, and Postprocessing effects.
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Node Overview](#node-overview)
 - [Custom Nodes](#custom-nodes)
   - [Image](#image)
@@ -24,10 +23,6 @@ These custom nodes both cover things, which had to be done through the use of mu
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Introduction
-
-This project includes a variety of custom nodes to mostly enhance image processing within **ComfyUI**. Each node serves a specific purpose, whether it's manipulating image resolution, applying grain or processing numbers quickly and efficiently. Below is an overview of each node and its intended use, organized by category.
 
 ## Node Overview
 
