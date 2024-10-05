@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_goat_nodes"
+description = "Nodes to level up your workflows performance and streamline specific functions."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.urls]
+Repository = ""
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "AconexOfficial"
+DisplayName = "ComfyUI_GOAT_Nodes"
+Icon = ""
