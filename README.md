@@ -47,7 +47,7 @@ These custom nodes both cover things, which had to be done through the use of mu
 _Add a detailed description of how the Tiler node works here._
 
 **Example workflow**:  
-![Example workflow for the Image Tiler and Image Untiler nodes]([http://url/to/img.png](https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes/blob/main/workflows/image/image_tiler_AND_image_untiler.png))
+![Example workflow for the Image Tiler and Image Untiler nodes](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/image_tiler_AND_image_untiler.png)
 
 
 ---
