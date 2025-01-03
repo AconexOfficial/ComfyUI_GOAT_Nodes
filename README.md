@@ -187,6 +187,7 @@ To install these custom nodes, follow do one of the following things below:
 
 ```bash
 git clone https://github.com/your-repo/comfyui-custom-nodes.git
+```
 
 ## Changelog
 
