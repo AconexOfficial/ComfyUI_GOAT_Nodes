@@ -182,7 +182,7 @@ To install these custom nodes, follow do one of the following things below:
 <em>Method 1: Clone the repository into your custom nodes folder</em>
 
 ```bash
-git clone https://github.com/your-repo/comfyui-custom-nodes.git
+git clone https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes.git
 ```
 
 Or use ComfyUI-Manager (SOON!)
