@@ -137,7 +137,7 @@ _Add a detailed description of how this node quickly matches the color profile o
 
 ---
 
-### Text
+### Input
 
 #### 🐐 Triple Prompt
 **Description**:  
@@ -147,8 +147,6 @@ Takes three text inputs and outputs them separately along with a concatenated ve
 _Add an example workflow image or description here._
 
 ---
-
-### Sampling
 
 #### 🐐 Sampler Settings
 **Description**:  
@@ -167,8 +165,6 @@ Allows selection or manual input of image dimensions (width and height).
 _Add an example workflow image or description here._
 
 ---
-
-### Embeddings
 
 #### 🐐 Embedding Selector
 **Description**:  
