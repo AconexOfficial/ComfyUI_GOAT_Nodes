@@ -189,7 +189,7 @@ git clone https://github.com/your-repo/comfyui-custom-nodes.git
 
 Version 1.1
 - Added 4 new nodes
- - Triple Prompt
- - Sampler Settings
- - Image Dimensions
- - Embedding Selector
+  - Triple Prompt
+  - Sampler Settings
+  - Image Dimensions
+  - Embedding Selector
