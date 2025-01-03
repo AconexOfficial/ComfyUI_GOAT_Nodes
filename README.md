@@ -26,7 +26,7 @@ These custom nodes both cover things, which had to be done through the use of mu
 	- [🐐 Image Dimensions](#-image-dimensions)
     - [🐐 Embedding Selector](#-embedding-picker)
 - [Installation](#installation)
-- [Changelog] (#changelog)
+- [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License](#license)
 
