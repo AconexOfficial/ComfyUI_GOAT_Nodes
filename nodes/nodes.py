@@ -6,6 +6,10 @@ from ComfyUI_GOAT_Nodes.nodes.int_divide_rounded import Int_Divide_Rounded # typ
 from ComfyUI_GOAT_Nodes.nodes.fast_film_grain import Fast_Film_Grain # type: ignore
 from ComfyUI_GOAT_Nodes.nodes.advanced_upscale_image_using_model import Advanced_Upscale_Image_Using_Model # type: ignore
 from ComfyUI_GOAT_Nodes.nodes.fast_color_match import Fast_Color_Match # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.triple_prompt import Triple_Prompt # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.embedding_selector import Embedding_Selector # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.sampler_settings import Sampler_Settings # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.image_dimensions import Image_Dimensions # type: ignore
 
 
 NODE_CLASS_MAPPINGS = {
@@ -18,6 +22,10 @@ NODE_CLASS_MAPPINGS = {
     "Fast_Film_Grain": Fast_Film_Grain,
     "Advanced_Upscale_Image_Using_Model": Advanced_Upscale_Image_Using_Model,
     "Fast_Color_Match": Fast_Color_Match,
+    "Triple_Prompt": Triple_Prompt,
+    "Embedding_Selector": Embedding_Selector,
+    "Sampler_Settings": Sampler_Settings,
+    "Image_Dimensions": Image_Dimensions,
 }
 
 
@@ -31,4 +39,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "Fast_Film_Grain": "🐐 Fast Film Grain",
     "Advanced_Upscale_Image_Using_Model": "🐐 Advanced Upscale Image (using Model)",
     "Fast_Color_Match": "🐐 Fast Color Match",
+    "Triple_Prompt": "🐐 Triple Prompt",
+    "Embedding_Selector": "🐐 Embedding Selector",
+    "Sampler_Settings": "🐐 Sampler Settings",
+    "Image_Dimensions": "🐐 Image Dimensions",
 }
