@@ -177,7 +177,7 @@ _Add an example workflow image or description here._
 
 ## Installation
 
-To install these custom nodes, follow do one of the following things below:
+To install these custom nodes, do one of the following things below:
 
 <em>Method 1: Clone the repository into your custom nodes folder</em>
 
