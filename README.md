@@ -20,7 +20,13 @@ These custom nodes both cover things, which had to be done through the use of mu
   - [Postprocessing](#postprocessing)
     - [🐐 Fast Film Grain](#-fast-film-grain)
     - [🐐 Fast Color Match](#-fast-color-match)
+  - [Input](#input)
+    - [🐐 Triple Prompt](#-triple-prompt)
+    - [🐐 Sampler Settings](#-sampler-settings)
+	- [🐐 Image Dimensions](#-image-dimensions)
+    - [🐐 Embedding Selector](#-embedding-picker)
 - [Installation](#installation)
+- [Changelog] (#changelog)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -29,14 +35,18 @@ These custom nodes both cover things, which had to be done through the use of mu
 | Category          | Node Name                           | Description                                                   |
 |-------------------|-------------------------------------|---------------------------------------------------------------|
 | **Image**         | 🐐 **Image Tiler**                  | Breaks an image into smaller tiles for processing.             |
-|                   | 🐐 **Image Untiler**                | Seamlessly reassembles tiles into a full image.                           |
-|                   | 🐐 **Get Side Length Of Image**     | Retrieves the wanted side length of an input image.                   |
-|                   | 🐐 **Advanced Upscale Image**       | Upscales an image using an upscale model.            |
+|                   | 🐐 **Image Untiler**                | Seamlessly reassembles tiles into a full image.               |
+|                   | 🐐 **Get Side Length Of Image**     | Retrieves the wanted side length of an input image.           |
+|                   | 🐐 **Advanced Upscale Image**       | Upscales an image using an upscale model.                     |
 | **Math**          | 🐐 **Capped Int (Positive)**        | Restricts an integer input within a positive range.            |
 |                   | 🐐 **Capped Float (Positive)**      | Restricts a float input within a positive range.               |
-|                   | 🐐 **Int Divide (Rounded)**         | Divides two integers and rounds the result to an integer.                    |
+|                   | 🐐 **Int Divide (Rounded)**         | Divides two integers and rounds the result to an integer.      |
 | **Postprocessing**| 🐐 **Fast Film Grain**              | Quickly adds realistic film grain to an image.                 |
-|                   | 🐐 **Fast Color Match**             | Quickly matches colors between two images.     |
+|                   | 🐐 **Fast Color Match**             | Quickly matches colors between two images.                     |
+| **Input**         | 🐐 **Triple Prompt**                | Takes three text inputs and concatenates them. |
+|				    | 🐐 **Sampler Settings**             | Allows selection of sampler settings: steps, CFG, and denoise. |
+|                   | 🐐 **Image Dimensions**             | Allows selection or manual input of image dimensions (width and height). |
+| 					| 🐐 **Embedding Selector**             | Allows the selection of an embedding and it's strength. |
 
 ## Custom Nodes
 
@@ -48,7 +58,6 @@ _Add a detailed description of how the Tiler node works here._
 
 **Example workflow**:  
 ![Example workflow for the Image Tiler and Image Untiler nodes](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/image_tiler_AND_image_untiler.png)
-
 
 ---
 
@@ -128,6 +137,48 @@ _Add a detailed description of how this node quickly matches the color profile o
 
 ---
 
+### Text
+
+#### 🐐 Triple Prompt
+**Description**:  
+Takes three text inputs and outputs them separately along with a concatenated version. Adds a comma as separation if there isn't already one at the end of a text. If a text field is empty, no unnecessary comma is added.
+
+**Example workflow**:  
+_Add an example workflow image or description here._
+
+---
+
+### Sampling
+
+#### 🐐 Sampler Settings
+**Description**:  
+Allows selection of sampler settings: steps (0-100), CFG (0.0-100.0), and denoise (0.0-1.0). Outputs the selected values for use in other nodes.
+
+**Example workflow**:  
+_Add an example workflow image or description here._
+
+---
+
+#### 🐐 Image Dimensions
+**Description**:  
+Allows selection or manual input of image dimensions (width and height).
+
+**Example workflow**:  
+_Add an example workflow image or description here._
+
+---
+
+### Embeddings
+
+#### 🐐 Embedding Selector
+**Description**:  
+Picks an embedding from a dropdown list and applies returns it as a string with its selected strength. If the strength is too low, the embedding is ignored.
+
+**Example workflow**:  
+_Add an example workflow image or description here._
+
+---
+
 ## Installation
 
 To install these custom nodes, follow do one of the following things below:
@@ -136,6 +187,12 @@ To install these custom nodes, follow do one of the following things below:
 
 ```bash
 git clone https://github.com/your-repo/comfyui-custom-nodes.git
-````
 
-<em>Method 2: Install through ComfyUI Manager</em> (SOON)
+## Changelog
+
+Version 1.1
+- Added 4 new nodes
+ - Triple Prompt
+ - Sampler Settings
+ - Image Dimensions
+ - Embedding Selector
