@@ -10,7 +10,7 @@ class Triple_Prompt:
         }
 
     RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING",)
-    RETURN_NAMES = ("text1", "text1", "text1", "concatenated_text",)
+    RETURN_NAMES = ("text1", "text2", "text3", "concatenated_text",)
     FUNCTION = "exec"
     CATEGORY = '🐐 GOAT Nodes/Input'
     DESCRIPTION = '''

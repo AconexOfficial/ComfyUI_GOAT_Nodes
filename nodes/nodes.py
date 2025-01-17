@@ -10,6 +10,8 @@ from ComfyUI_GOAT_Nodes.nodes.triple_prompt import Triple_Prompt # type: ignore
 from ComfyUI_GOAT_Nodes.nodes.embedding_selector import Embedding_Selector # type: ignore
 from ComfyUI_GOAT_Nodes.nodes.sampler_settings import Sampler_Settings # type: ignore
 from ComfyUI_GOAT_Nodes.nodes.image_dimensions import Image_Dimensions # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.image_crop import Image_Crop # type: ignore
+from ComfyUI_GOAT_Nodes.nodes.image_crop import Image_Stitch # type: ignore
 
 
 NODE_CLASS_MAPPINGS = {
@@ -26,6 +28,8 @@ NODE_CLASS_MAPPINGS = {
     "Embedding_Selector": Embedding_Selector,
     "Sampler_Settings": Sampler_Settings,
     "Image_Dimensions": Image_Dimensions,
+    "Image_Crop": Image_Crop,
+    "Image_Stitch": Image_Stitch,
 }
 
 
@@ -43,4 +47,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "Embedding_Selector": "🐐 Embedding Selector",
     "Sampler_Settings": "🐐 Sampler Settings",
     "Image_Dimensions": "🐐 Image Dimensions",
+    "Image_Crop": "🐐 Image Crop",
+    "Image_Stitch": "🐐 Image Stitch",
 }
