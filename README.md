@@ -97,7 +97,6 @@ _Add a detailed description of how this node performs advanced upscaling using a
 _Add a detailed description of how this node works._
 
 **Example workflow**:  
-![Example workflow for the Advanced Upscale image (using Model) node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/advanced_upscale_image_using_model.png)
 
 ---
 
