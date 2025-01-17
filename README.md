@@ -13,6 +13,8 @@ These custom nodes both cover things, which had to be done through the use of mu
     - [🐐 Image Untiler](#-image-untiler)
     - [🐐 Get Side Length Of Image](#-get-side-length-of-image)
     - [🐐 Advanced Upscale Image (using Model)](#-advanced-upscale-image-using-model)
+    - [🐐 Image Crop](#-image-crop)
+    - [🐐 Image Stitch](#-image-stitch)
   - [Math](#math)
     - [🐐 Capped Int (Positive)](#-capped-int-positive)
     - [🐐 Capped Float (Positive)](#-capped-float-positive)
@@ -38,6 +40,8 @@ These custom nodes both cover things, which had to be done through the use of mu
 |                   | 🐐 **Image Untiler**                | Seamlessly reassembles tiles into a full image.               |
 |                   | 🐐 **Get Side Length Of Image**     | Retrieves the wanted side length of an input image.           |
 |                   | 🐐 **Advanced Upscale Image**       | Upscales an image using an upscale model.                     |
+|                   | 🐐 **Image Crop**    		  | Crops an image based on a batch of proviced masks.             |
+|                   | 🐐 **Image Stitch**	          | Stitches previously cropped images back onto the original image.|
 | **Math**          | 🐐 **Capped Int (Positive)**        | Restricts an integer input within a positive range.            |
 |                   | 🐐 **Capped Float (Positive)**      | Restricts a float input within a positive range.               |
 |                   | 🐐 **Int Divide (Rounded)**         | Divides two integers and rounds the result to an integer.      |
@@ -87,6 +91,24 @@ _Add a detailed description of how this node performs advanced upscaling using a
 ![Example workflow for the Advanced Upscale image (using Model) node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/advanced_upscale_image_using_model.png)
 
 ---
+
+#### 🐐 Image Crop
+**Description**:  
+_Add a detailed description of how this node works._
+
+**Example workflow**:  
+![Example workflow for the Advanced Upscale image (using Model) node](https://raw.githubusercontent.com/AconexOfficial/ComfyUI_GOAT_Nodes/refs/heads/main/workflows/image/advanced_upscale_image_using_model.png)
+
+---
+
+#### 🐐 Image Stitch
+**Description**:  
+_Add a detailed description of how this node works._
+
+**Example workflow**:  
+
+---
+
 
 ### Math
 
@@ -188,6 +210,12 @@ git clone https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes.git
 Or use ComfyUI-Manager (SOON!)
 
 ## Changelog
+
+Version 1.1.1
+- Added 2 new nodes
+   - Image Crop
+   - Image Stitch
+- Fixed output naming in Triple Prompt
 
 Version 1.1
 - Added 4 new nodes
