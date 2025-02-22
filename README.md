@@ -206,7 +206,7 @@ To install these custom nodes, do one of the following things below:
 git clone https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes.git
 ```
 
-Or use ComfyUI-Manager (SOON!)
+Or use ComfyUI-Manager to install
 
 ## Changelog
 
