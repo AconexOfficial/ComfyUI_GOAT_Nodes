@@ -22,10 +22,11 @@ These custom nodes both cover things, which had to be done through the use of mu
   - [Postprocessing](#postprocessing)
     - [🐐 Fast Film Grain](#-fast-film-grain)
     - [🐐 Fast Color Match](#-fast-color-match)
+    - [🐐 Advanced Sharpen](#-advanced-sharpen)
   - [Input](#input)
     - [🐐 Triple Prompt](#-triple-prompt)
     - [🐐 Sampler Settings](#-sampler-settings)
-	- [🐐 Image Dimensions](#-image-dimensions)
+    - [🐐 Image Dimensions](#-image-dimensions)
     - [🐐 Embedding Selector](#-embedding-picker)
 - [Installation](#installation)
 - [Changelog](#changelog)
@@ -47,6 +48,7 @@ These custom nodes both cover things, which had to be done through the use of mu
 |                   | 🐐 **Int Divide (Rounded)**         | Divides two integers and rounds the result to an integer.      |
 | **Postprocessing**| 🐐 **Fast Film Grain**              | Quickly adds realistic film grain to an image.                 |
 |                   | 🐐 **Fast Color Match**             | Quickly matches colors between two images.                     |
+|                   | 🐐 **Advanced Sharpen**             | Subtle sharpening with many options and reduced noise creation. |
 | **Input**         | 🐐 **Triple Prompt**                | Takes three text inputs and concatenates them. |
 |				    | 🐐 **Sampler Settings**             | Allows selection of sampler settings: steps, CFG, and denoise. |
 |                   | 🐐 **Image Dimensions**             | Allows selection or manual input of image dimensions (width and height). |
@@ -158,6 +160,15 @@ _Add a detailed description of how this node quickly matches the color profile o
 
 ---
 
+---
+
+#### 🐐 Advanced Sharpen
+**Description**:  
+_Add a detailed description of how this node quickly matches the color profile of one image to another._
+
+**Example workflow**:  
+_Add an example workflow image or description here._
+
 ### Input
 
 #### 🐐 Triple Prompt
@@ -206,7 +217,8 @@ To install these custom nodes, do one of the following things below:
 git clone https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes.git
 ```
 
-Or use ComfyUI-Manager to install
+
+<em>Method 2: Use ComfyUI-Manager to install</em>
 
 ## Changelog
 
