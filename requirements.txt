@@ -1,0 +1,5 @@
+numpy
+scipy
+opencv-python
+opencv-contrib-python
+scikit-learn

@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_goat_nodes"
-description = "Nodes to level up your workflows performance and streamline specific functions."
-version = "1.1.0"
+description = "Nodes to level up your workflows performance and streamline specific functions: Image Tiler, Image Untiler,, Get Side Length Of Image, Advanced Upscale Image (using Model), Image Crop, Image Stitch, Capped Int (Positive), Capped Float (Positive), Int Divide (Rounded), Fast Film Grain, Fast Color Match, Advanced Sharpen, Triple Prompt, Sampler Settings, Image Dimensinos, Embedding Selector"
+version = "1.1.1"
 license = {file = "LICENSE"}
 dependencies = []
 

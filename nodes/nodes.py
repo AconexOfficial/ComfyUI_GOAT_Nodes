@@ -1,17 +1,21 @@
-from ComfyUI_GOAT_Nodes.nodes.image_tiler import Image_Tiler, Image_Untiler # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.get_side_length_of_image import Get_Side_Length_Of_Image # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.capped_int_positive import Capped_Int_Positive # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.capped_float_positive import Capped_Float_Positive # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.int_divide_rounded import Int_Divide_Rounded # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.fast_film_grain import Fast_Film_Grain # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.advanced_upscale_image_using_model import Advanced_Upscale_Image_Using_Model # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.fast_color_match import Fast_Color_Match # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.triple_prompt import Triple_Prompt # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.embedding_selector import Embedding_Selector # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.sampler_settings import Sampler_Settings # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.image_dimensions import Image_Dimensions # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.image_crop import Image_Crop # type: ignore
-from ComfyUI_GOAT_Nodes.nodes.image_crop import Image_Stitch # type: ignore
+from .image_tiler import Image_Tiler, Image_Untiler # type: ignore
+from .get_side_length_of_image import Get_Side_Length_Of_Image # type: ignore
+from .capped_int_positive import Capped_Int_Positive # type: ignore
+from .capped_float_positive import Capped_Float_Positive # type: ignore
+from .int_divide_rounded import Int_Divide_Rounded # type: ignore
+from .fast_film_grain import Fast_Film_Grain # type: ignore
+from .advanced_upscale_image_using_model import Advanced_Upscale_Image_Using_Model # type: ignore
+from .fast_color_match import Fast_Color_Match # type: ignore
+from .triple_prompt import Triple_Prompt # type: ignore
+from .embedding_selector import Embedding_Selector # type: ignore
+from .sampler_settings import Sampler_Settings # type: ignore
+from .image_dimensions import Image_Dimensions # type: ignore
+from .image_crop import Image_Crop # type: ignore
+from .image_crop import Image_Stitch # type: ignore
+from .advanced_sharpen import Advanced_Sharpen # type: ignore
+from .advanced_color_correction import Advanced_Color_Correction # type: ignore
+from .advanced_latent_noise import Advanced_Latent_Noise # type: ignore
+from .tiled_context_sampler import SamplerTiledContextAdvanced # type: ignore
 
 
 NODE_CLASS_MAPPINGS = {
@@ -30,6 +34,10 @@ NODE_CLASS_MAPPINGS = {
     "Image_Dimensions": Image_Dimensions,
     "Image_Crop": Image_Crop,
     "Image_Stitch": Image_Stitch,
+    "Advanced_Sharpen": Advanced_Sharpen,
+    "Advanced_Color_Correction": Advanced_Color_Correction,
+    "Advanced_Latent_Noise": Advanced_Latent_Noise,
+    "SamplerTiledContextAdvanced": SamplerTiledContextAdvanced,
 }
 
 
@@ -49,4 +57,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "Image_Dimensions": "🐐 Image Dimensions",
     "Image_Crop": "🐐 Image Crop",
     "Image_Stitch": "🐐 Image Stitch",
+    "Advanced_Sharpen": "🐐 Advanced Sharpen",
+    "Advanced_Color_Correction": "🐐 Advanced Color Correction",
+    "Advanced_Latent_Noise": "🐐 Advanced Latent Noise",
+    "SamplerTiledContextAdvanced": "🐐 Sampler Tiled Context Advanced",
 }
